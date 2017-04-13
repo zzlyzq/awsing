@@ -1,0 +1,7 @@
+,机器名称,尺寸大小,磁盘大小,可用区id,ami id,密钥名称,几台,需要开放的防火墙端口,内网还是公网
+,redis,t2.medium,50,ap-northeast-1,ami-19c66a78,siga_tmp,2,22__6379__26379,private
+,rabbitmq,t2.medium,50,ap-northeast-1,ami-19c66a78,siga_tmp,2,22__5672__15672__25672,private
+,zookeeper,t2.medium,50,ap-northeast-1,ami-19c66a78,siga_tmp,3,22__2181__1812,private
+,mariadb,t2.medium,50,ap-northeast-1,ami-19c66a78,siga_tmp,3,22__3306,private
+,ops-jumpserver,t2.micro,50,ap-northeast-1,ami-19c66a78,siga_tmp,1,22,public
+,ops-monitor,t2.small,50,ap-northeast-1,ami-19c66a78,siga_tmp,1,22,public
